@@ -1,4 +1,4 @@
-print ("Donam la base del teu triangle")
+print ("Donam la base del teu rectangle")
 entrada1=input()
 base=int (entrada1)
 print ("Donam la seva Altura")
