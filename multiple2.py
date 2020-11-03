@@ -29,9 +29,9 @@ if seleccion == 2:
 
   conversion = int(input("en que vols convertirlo?"))
   if conversion == 1:
-    print(mm * 1852)
+    print((mm * 1852)/1000)
   elif conversion == 2:
-    print((mm * 1,151))
+    print((mm * 1151)/1000)
 if seleccion == 3:
   mt = int(input("Quin valor?"))
   print("""
@@ -39,6 +39,6 @@ if seleccion == 3:
       2)mm""")
   conversion = int(input("en que vols convertirlo?"))
   if conversion == 1:
-    print(mt * 1609)
+    print(mt * 1609/1000)
   elif conversion == 2:
-    print(mt / 1,151)
+    print(mt /  1.151)
