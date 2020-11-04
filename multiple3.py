@@ -19,3 +19,5 @@ elif cara == 5:
   print("L'opost és : ",7 - cara)
 elif cara == 6:
   print("L'opost és : ",7 - cara)
+else:
+  print("el numero es erroni")

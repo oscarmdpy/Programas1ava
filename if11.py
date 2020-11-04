@@ -4,7 +4,7 @@ any = int(input("Diguem l'any\n"))
 hora = int(input("Diguem l'hora\n"))
 minuts = int(input("Diguem els minuts\n"))
 segons = int(input("Diguem els segons\n"))
-if (mes == 1 or mes == 3 or mes == 5 or mes == 7 or mes == 8 or mes == 10 or mes == 12) and dia>=1 and dia <= 31:
+if (mes == 1 or mes == 3 or mes == 5 or mes == 7 or mes == 8 or mes == 10 or mes == 12) and dia>=1 and dia <= 31: 
   if segons == 59 and minuts >0 and minuts <= 58 and hora >0 and hora <= 24: 
 	  print(dia, mes, any, hora, minuts +1, segons * 0)
   elif segons >=1 and segons <=58 and minuts >0 and minuts <= 59 and hora >0 and hora <= 24:
